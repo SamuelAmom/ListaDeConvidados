@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ListaDeConvidados.Migrations
 {
     [DbContext(typeof(ListaDeConvidadosContext))]
-    [Migration("20240201015841_ListaDeConvidados")]
-    partial class ListaDeConvidados
+    [Migration("20240202022952_TabelaDaListaDeConvidados")]
+    partial class TabelaDaListaDeConvidados
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
